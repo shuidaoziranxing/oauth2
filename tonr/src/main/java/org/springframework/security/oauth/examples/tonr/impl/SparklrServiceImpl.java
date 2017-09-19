@@ -30,6 +30,7 @@ public class SparklrServiceImpl implements SparklrService {
 	private RestOperations sparklrRestTemplate;
 	private RestOperations trustedClientRestTemplate;
 	public static String message = "hello";
+	public static final Long TIMEOUT = 3000;
 
 	public List<String> getSparklrPhotoIds() throws SparklrException {
 		try {
