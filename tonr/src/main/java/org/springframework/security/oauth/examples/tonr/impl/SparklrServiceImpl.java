@@ -29,6 +29,7 @@ public class SparklrServiceImpl implements SparklrService {
 	private String sparklrPhotoURLPattern;
 	private RestOperations sparklrRestTemplate;
 	private RestOperations trustedClientRestTemplate;
+	public static String message = "hello";
 
 	public List<String> getSparklrPhotoIds() throws SparklrException {
 		try {
